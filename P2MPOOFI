@@ -1,5 +1,43 @@
-// Alumno Pimentel Hernandez Marco  Antonio
-//Materia Modelos de Programacion Orientada a Objetos
-//Grupo 4
-// correo marco_guitar280@hotmail.com 
+//Facultad de Ingenieria UNAM 
+//Materia: Modelos de Programación Orientada a Objetos 
+//Profesor: German Santos Jaimes Grupo : 4 
+//Alumno: Pimentel Hernández Marco Antonio
+//correo: marcoaph421028214@gmail.com 
+import 'package:flutter/material.dart';
+
+class Screen extends StatelessWidget{
+  @override
+  widget build(BuildContext context){
+    return Materialapp(
+      home: Scaffold(
+    backroundColor: Colors.blue,
+    appBar: AppBar(
+      title: Text(
+        "tarea 2",
+        ),
+      ),
+      body: Center(
+          child: Container(
+            height:220,
+            width:220,
+            color: Colors.red[900],
+            transform: Matrix4.rotationZ(.8),
+            child: Align,
+                alignment: Alignment,center,
+                child: Container(
+                  decoration: BoxDecoration(
+                    Shape: BoxShape.circle,
+                    color: Colors.green,
+                  ),
+                  child: Text(" Marco A. Pimentel H."),
+                  height:100,
+                  wigth: 100,
+                )))), 
+    ));
+  }
+}
+
+void main() {
+  runApp(Screen());
+}
 
